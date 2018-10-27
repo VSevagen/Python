@@ -8,7 +8,8 @@ for i in range (len(l)):
  
        
          if x[i] > x[j]:
-          
-            x[i], x[j] = x[j], x[i]
+             temp=X[i]
+             X[i] = X[j]
+             X[j]=temp
 
 print (x)
